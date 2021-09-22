@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Form Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="row g-3" method="post" action="#">
+            <div class="col-md-6">
+                <label for="fName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="fName">
+            </div>
+            <div class="col-md-6">
+                <label for="lName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lName">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option>Ohio</option>
+                    <option>Florida</option>
+                    <option selected>Michigan</option>
+                    <option>Indiana</option>
+                    <option>California</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    <div class="col">
+                        <input class="form-check-input" type="radio" name="genderOptions" id="male" value="option1">
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="col">
+                        <input class="form-check-input" type="radio" name="genderOptions" id="female" value="option2">
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row-md-2">
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
