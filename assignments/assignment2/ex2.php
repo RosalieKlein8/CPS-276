@@ -10,7 +10,7 @@ $paraText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fe
 $output = ""; 
 
 for ($i = 1; $i < 4; $i++){
-    $output .= $paraText ."</br></br>" ;
+    $output .= $paraText ."</br></br>";
 }
 
 ?>
