@@ -10,10 +10,9 @@ $output = "";
         }
 
         $output .= "</ul></ul>";
-        
+       
     }
     
-
 ?>
 
 <!doctype html>
