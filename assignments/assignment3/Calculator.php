@@ -48,13 +48,10 @@
                             break;
                     default:
                         return 'Invalid.';
-                    }
+                }
             }
         }
-    
-    
     }
-
 ?>
 
 <!doctype html>
@@ -72,8 +69,6 @@
 </head>
 
 <body>
-
-   
 
 </body>
 
