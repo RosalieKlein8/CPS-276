@@ -25,7 +25,7 @@
         public function calc($operator=NULL, $num1=NULL, $num2=NULL) {
             
             if ($operator===NULL || $num1===NULL || $num2===NULL) {
-                return 'You must enter a string and two numbers.'.'<br>';
+                return "You must enter a string and two numbers.".'<br>';
             }
 
             else {
