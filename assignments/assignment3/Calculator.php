@@ -22,10 +22,10 @@
 
         // Calculator Function 
 
-        public function calculator($operator=NULL, $num1=NULL, $num2=NULL) {
+        public function calc($operator=NULL, $num1=NULL, $num2=NULL) {
             
-            if ($operator==NULL || $num1==NULL && $num2==NULL) {
-                return 'The function is null.'.'<br>';
+            if ($operator===NULL || $num1===NULL || $num2===NULL) {
+                return 'You must enter a string and two numbers.'.'<br>';
             }
 
             else {
@@ -41,13 +41,13 @@
                         break;
                     case '/':
                         if($num2==0) {
-                            return 'You cannot divide by zero.'.'<br>';
+                            return "You cannot divide by zero.".'<br>';
                         } 
                         else {
                             return "The division of the numbers is " .$num1 / $num2.'.<br>';}
                             break;
                     default:
-                        return 'Invalid.';
+                        return "Invalid.";
                 }
             }
         }
