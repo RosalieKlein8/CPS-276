@@ -29,7 +29,7 @@
             }
 
             else {
-                switch($operator){
+                switch($operator) {
                     case '+':
                         return "The sum of the numbers is " .$num1 + $num2.'.<br>';
                         break;
@@ -40,9 +40,10 @@
                         return "The product of the numbers is ".$num1 * $num2.'.<br>';
                         break;
                     case '/':
-                        if($num2==0){
-                            return 'You cannot divide by zero.'.'<br>';}
-                        else{
+                        if($num2==0) {
+                            return 'You cannot divide by zero.'.'<br>';
+                        } 
+                        else {
                             return "The division of the numbers is " .$num1 / $num2.'.<br>';}
                             break;
                     default:
