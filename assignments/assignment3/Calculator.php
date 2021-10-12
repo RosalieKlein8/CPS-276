@@ -22,7 +22,7 @@
 
         // Calculator Function 
 
-        public function calc ($operator=NULL, $num1=NULL, $num2=NULL) {
+        public function calculator($operator=NULL, $num1=NULL, $num2=NULL) {
             
             if ($operator==NULL || $num1==NULL && $num2==NULL) {
                 return 'The function is null.'.'<br>';
